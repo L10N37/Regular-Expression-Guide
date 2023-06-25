@@ -1,27 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    pre {
-      background-color: black;
-      color: white;
-      padding: 10px;
-      font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    }
-  </style>
-  <script>
-    function copyToClipboard() {
-      const codeSnippet = document.querySelector('#tutorial-code');
-      const range = document.createRange();
-      range.selectNode(codeSnippet);
-      window.getSelection().removeAllRanges();
-      window.getSelection().addRange(range);
-      document.execCommand('copy');
-      window.getSelection().removeAllRanges();
-      alert('Code snippet copied to clipboard!');
-    }
-  </script>
+<!-- <style>
+  pre {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+</style> -->
 </head>
+<body>
 <body>
   <h1>Regular Expression Tutorial: Matching Email Addresses</h1>
 
@@ -106,11 +95,8 @@
 
   <h2 id="author">6. Author</h2>
 
-  <p>This tutorial was written by Lionel Sanderson. You can find more tutorials and projects on [my GitHub profile:](www.github.com/L10N37).</p>
+  <p>This tutorial was written by Lionel Sanderson. You can find more tutorials and projects on [my GitHub profile](https://www.github.com/L10N37).</p>
 
-  <script src="https://cdn.jsdelivr.net/npm/clipboard@1.5.1/dist/clipboard.min.js"></script>
-  <script>
-    new ClipboardJS('button');
-  </script>
+
 </body>
 </html>
