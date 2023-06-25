@@ -95,7 +95,11 @@
 
   <h2 id="author">6. Author</h2>
 
-  <p>This tutorial was written by Lionel Sanderson. You can find more tutorials and projects on [my GitHub profile](https://www.github.com/L10N37).</p>
+<p>This tutorial was written by Lionel Sanderson. You can find more tutorials and projects on:<br>
+
+[my GitHub profile](https://www.github.com/L10N37).</p>
+
+  
 
 
 </body>
